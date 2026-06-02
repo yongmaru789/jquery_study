@@ -1,0 +1,29 @@
+/* 기본 스타일 */
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  transition: 0.3s; /* 테마가 부드럽게 전환되도록 */
+}
+ 
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  margin-top: 20px;
+}
+ 
+button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+ 
+/* body에 dark 클래스가 붙었을 때만 적용되는 스타일 */
+body.dark {
+  background: #1a1a1a;
+  color: #eee;
+}
+ 
+body.dark .card {
+  border-color: #555;
+}
