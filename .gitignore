@@ -1,0 +1,13 @@
+# OS
+.DS_Store
+Thumbs.db
+ 
+# 에디터
+.vscode/
+.idea/
+ 
+# 로그/임시
+*.log
+ 
+# API 키 등 민감 정보를 분리할 경우
+# config.js
