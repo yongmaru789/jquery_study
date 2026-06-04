@@ -1,0 +1,29 @@
+/* 기본 스타일 */
+body {
+  font-family: sans-serif;
+  padding: 40px;
+  max-width: 400px;
+}
+ 
+.input-row {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+ 
+#city-input {
+  flex: 1;
+  padding: 8px;
+}
+ 
+#search-btn {
+  padding: 8px 16px;
+  cursor: pointer;
+}
+ 
+#result {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 16px;
+  min-height: 40px;
+}

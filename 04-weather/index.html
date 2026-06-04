@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>4단원 - 날씨 검색기</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>날씨 검색기</h1>
+ 
+  <div class="input-row">
+    <input type="text" id="city-input" placeholder="도시명 (예: Seoul)" />
+    <button id="search-btn">검색</button>
+  </div>
+ 
+  <!-- 검색 결과 (서버에서 받은 데이터로 채워짐) -->
+  <div id="result"></div>
+ 
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <!-- config.js를 먼저 불러와 apiKey 변수를 준비한다 -->
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
